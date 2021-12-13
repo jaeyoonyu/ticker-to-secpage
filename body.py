@@ -16,7 +16,7 @@ while ticker!="":
     ticker= input("Type ticker: ")
 
     # get url
-    url= ticker_to_sec(ticker) + f"&type={form_type}" + f"&dateb={dateb}" + f"&datea={datea}"
+    url= ticker_to_sec(ticker) + f"&type={form_type}" + f"&datea={datea}" + f"&dateb={dateb}"
 
     # print url
     print(url)
